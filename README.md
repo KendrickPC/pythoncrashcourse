@@ -14,3 +14,6 @@ Running Python in Terminal: CD (Change directory) into the hello_world.py file. 
 
 ### Chapter 3:
 	Introducing Lists
+	list.pop[]
+	del list[]
+
