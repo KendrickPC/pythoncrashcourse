@@ -22,4 +22,5 @@ print(car2 == 'bmw')
 # Ignoring case when checking
 car3 = 'Audi'
 print(car3 == 'audi')
+# lower() function changes all characters to lowercase
 print(car3.lower() == 'audi')
