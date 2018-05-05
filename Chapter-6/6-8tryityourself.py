@@ -38,14 +38,12 @@ pets.append(pet)
 
 for pet in pets: 
 	pet_info = pet['animal_type']
-	master = pet['owner']
+	pet_master = pet['owner']
 	pet_name = pet['name']
 	pet_breed = pet['breed']
 	pet_sex = pet['sex']
 
-	print("The " + pet_info + "'s owner is " + master.title() + "." \
-		+ " The " + pet_info + "'s " + "name is " + pet_name.title() + ". " \
-		+ "The pet's breed is " + pet_breed + " and is a "+ pet_sex)
+	print("The " + pet_info + "'s " + "name is " + pet_name.title() + ". " + "\nThe " + pet_info + "'s owner is " + pet_master.title() + "." + "\nThe pet's breed is a " + pet_breed + " and "+ pet_sex)
 
 
 
