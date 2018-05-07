@@ -7,4 +7,3 @@ if divisible_by_ten % 10 == 0:
 	print("\nThe number " + str(divisible_by_ten) + " is divisible by ten.")
 else: 
 	print("\nThe number " + str(divisible_by_ten) + " is not divisible by ten.")
-
