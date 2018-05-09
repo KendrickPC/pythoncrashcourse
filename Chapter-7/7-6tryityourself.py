@@ -22,8 +22,3 @@ while True:
         print("\tYour movie ticket is $10.00 USD.")
     else:
         print("\tYour movie ticket is $15.00 USD.")
-
-
-
-
-
