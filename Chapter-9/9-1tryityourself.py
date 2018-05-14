@@ -19,7 +19,8 @@ class Restaurant(object):
 
     def describe_restaurant(self):
 
-        msg = self.restaurant_name + " is a restaurant that serves " + self.cuisine_type + " food."
+        msg = self.restaurant_name + " is a restaurant that serves " \
+            + self.cuisine_type + " food."
         print(msg)
 
     def open_restaurant(self):
@@ -27,7 +28,7 @@ class Restaurant(object):
         print(msg)
 
 
-restaurant = Restaurant('woo doo food lab', 'all natural')
+restaurant = Restaurant('woo doo food lab', 'all natural fusion')
 print(restaurant.restaurant_name)
 print(restaurant.cuisine_type)
 
