@@ -6,4 +6,30 @@
 # and call your method.
 
 
-# Indent using spaces
+from ninefivetryityourself import User
+
+class Admin(User):
+    # A username with Admin privileges
+    def __init__(self, first_name, last_name, username, email, location_city):
+    # Initializing the admin
+        super(Admin, self).__init__(first_name, last_name, username, email,
+                                    location_city)
+        self.privileges = []
+
+    def show_priviledges(self):
+        # Display the privileges that the admin has
+        print("\nPrivileges:")
+        for privilege in self.privileges:
+            print("- " + privilege)
+
+kenderson = Admin('kendrick', 'chang', 'kendersonPC', 'kennethpchang@gmail.com',
+                  'taipei')
+kenderson.describe_user()
+
+kenderson.privileges = [
+    'can add post',
+    'can delete post',
+    'can ban user',
+    ]
+
+kenderson.show_priviledges()
