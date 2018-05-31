@@ -69,6 +69,6 @@ class ElectricCar(Car):
     """Represent aspects of an electric car """
     def __init__(self, make, model, year):
         """Initialize attributes of the parent class"""
-        super(ElectricCar, self).__init__(make, model, year)
+        super().__init__(make, model, year)
         self.battery = Battery()
         """Print statement describing battery size"""
