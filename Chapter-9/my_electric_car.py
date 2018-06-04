@@ -12,3 +12,5 @@ my_tesla.battery.describe_battery()
 my_tesla.battery.get_range()
 
 # TypeError: super() argument 1 must be type, not instance
+
+# python3 my_electric_car.py solves the python error problem.
