@@ -1,6 +1,4 @@
-"""A class representing a restaurant."""
-
-class Restaurant():
+class Restaurant(object):
     """A class representing a restaurant."""
 
     def __init__(self, name, cuisine_type):
@@ -26,11 +24,3 @@ class Restaurant():
     def increment_number_served(self, additional_served):
         """Allow user to increment the number of customers served."""
         self.number_served += additional_served
-
-my_restaurant.py:
-
-from restaurant import Restaurant
-
-channel_club = Restaurant('the channel club', 'steak and seafood')
-channel_club.describe_restaurant()
-channel_club.open_restaurant()
