@@ -50,3 +50,4 @@ class Privileges():
         else:
             print("\tThis user has no privilege(s) on the server at\
                   this time.")
+
