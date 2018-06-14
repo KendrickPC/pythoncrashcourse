@@ -1,0 +1,5 @@
+In Python you can add a large data set of numbers.
+
+In Python you can replace words.
+
+In Python you can create classes.

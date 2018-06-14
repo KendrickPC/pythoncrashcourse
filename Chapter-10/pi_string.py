@@ -17,10 +17,12 @@ pi_string = ''
 for line in lines:
     pi_string += line.strip()
 
-print(pi_string[:] + "...")
-print(len(pi_string))
+''' Prints the entire string of pi to the millionth digit '''
+# print(pi_string[:] + "...")
+''' Prints one number showing the length of pi_mllion_digits.txt '''
+# print(len(pi_string))
 
-# Is your birthday contained in pi?
+''' Is your birthday contained in pi? '''
 birthday = input("Enter your birthday in the form of mmddyy: ")
 
 if birthday in pi_string:

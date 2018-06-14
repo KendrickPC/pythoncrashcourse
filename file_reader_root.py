@@ -1,7 +1,7 @@
 # Opens and reads txt files
 
 # Windows systems will sometimes interpret forward slashes in file paths
-# correctly. If you’re using Windows and you’re not getting the results you
+# correctly. If you are using Windows and you are not getting the results you
 # expect, make sure you try using backslashes.
 
 
