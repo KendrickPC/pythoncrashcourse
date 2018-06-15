@@ -7,3 +7,20 @@
 # over the file object, and once by storing the lines in a list and then
 # working with them outside the with block .
 
+filename = 'learning_python.txt'
+
+''' Reading the entire file '''
+with open(filename) as file_object:
+    contents = file_object.read()
+print(contents)
+
+''' Looping over the lines '''
+with open(filename) as file_object:
+    for line in file_object:
+        print(line.strip())
+
+''' Storing the lines in a list '''
+with open(filename) as file_object:
+    lines = file_object.readlines()
+for line in lines:
+    print(line.strip())
