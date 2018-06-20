@@ -5,8 +5,9 @@ def count_words(filename):
 		with open(filename) as file_object:
 			contents = file_object.read()
 	except FileNotFoundError:
-		message = "Sorry, the file " + filename + " does not exist."
-		print(message)
+		# message = "Sorry, the file " + filename + " does not exist."
+		# print(message)
+		pass
 	else: 
 		# Count the number of words in a file.
 		words = contents.split()
@@ -14,8 +15,8 @@ def count_words(filename):
 		print("The file " + filename + " has " + str(number_of_words) + \
 " number of words.")
 
-filenames = ['abigail.txt', 'book_1.txt', 'book_2.txt', 
-'book_3.txt']
+filenames = ['prince_and_the_pauper.txt', 'huckleberry_finn.txt'
+, 'tom_sawyer.txt', 'great_expectations.txt', 'python.txt']
 
 ''' Loop through all files to count the number of words for each document '''
 for filename in filenames:
